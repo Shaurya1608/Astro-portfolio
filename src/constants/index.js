@@ -1,14 +1,13 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "GamerThred",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A platform driven by innovation and community, reflecting my passion for turning ideas into meaningful digital solutions.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a community-centric platform for gamers to interact and share content.",
+      "Implemented modern frontend and robust backend systems for a seamless user experience.",
+      "Focused on scalability and real-world value for the gaming community.",
     ],
     href: "",
     logo: "",
@@ -225,54 +224,50 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "GitHub",
+    href: import.meta.env.VITE_USER_GITHUB,
+    icon: "/assets/socials/instagram.svg", // Using instagram as placeholder if github doesn't exist
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: import.meta.env.VITE_USER_LINKEDIN,
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "WhatsApp",
+    href: `https://wa.me/91${import.meta.env.VITE_USER_PHONE}`,
+    icon: "/assets/socials/whatsApp.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "CEO & Co-Founder",
+    job: "GamerThred",
+    date: "Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Leading the vision and development of GamerThred, a platform for the gaming community.",
+      "Managing cross-functional teams to deliver innovative digital solutions.",
+      "Strategizing for growth, user experience, and real-world value.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Full-Stack Developer",
+    job: "Freelance / Projects",
+    date: "Current",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developing impactful and scalable digital products across the entire stack.",
+      "Crafting clean, modern frontends and building efficient, secure backend systems.",
+      "Constantly learning and staying ahead in the ever-evolving tech landscape.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "MCA Student",
+    job: "Chandigarh University",
+    date: "Current",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Pursuing Master of Computer Applications with a focus on advanced computing and software development.",
+      "Applying academic knowledge to real-world projects and entrepreneurial ventures.",
     ],
   },
 ];
